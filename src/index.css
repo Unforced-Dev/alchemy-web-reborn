@@ -5,39 +5,38 @@
 
 @layer base {
   :root {
-    --background: 0 0% 98%; /* Very Light Gray */
-    --foreground: 240 5% 20%; /* Dark Gray-Blue (almost black) */
+    --background: 0 0% 98%; /* Very Light Gray - Kept */
+    --foreground: 0 0% 10%; /* Almost Black */
 
-    --card: 0 0% 100%; /* White */
-    --card-foreground: 240 5% 20%; /* Dark Gray-Blue */
+    --card: 0 0% 100%; /* White - Kept */
+    --card-foreground: 0 0% 10%; /* Almost Black */
 
-    --popover: 0 0% 100%; /* White */
-    --popover-foreground: 240 5% 20%; /* Dark Gray-Blue */
+    --popover: 0 0% 100%; /* White - Kept */
+    --popover-foreground: 0 0% 10%; /* Almost Black */
 
-    --primary: 130 35% 45%; /* Muted Nature Green */
-    --primary-foreground: 0 0% 100%; /* White */
+    --primary: 0 0% 13%; /* Very Dark Gray / Near Black */
+    --primary-foreground: 0 0% 95%; /* Very Light Gray / Off-White */
 
-    --secondary: 130 20% 92%; /* Very Light Green */
-    --secondary-foreground: 130 25% 30%; /* Darker Green for text on secondary */
+    --secondary: 0 0% 92%; /* Light Gray */
+    --secondary-foreground: 0 0% 20%; /* Dark Gray */
 
-    --muted: 0 0% 94%; /* Light Gray */
-    --muted-foreground: 0 0% 45%; /* Mid Gray */
+    --muted: 0 0% 94%; /* Light Gray - Kept */
+    --muted-foreground: 0 0% 40%; /* Mid Gray */
 
-    --accent: 200 60% 55%; /* Subtle Sky Blue */
-    --accent-foreground: 0 0% 100%; /* White */
+    --accent: 200 60% 55%; /* Subtle Sky Blue - Kept */
+    --accent-foreground: 0 0% 100%; /* White - Kept */
 
-    --destructive: 0 84.2% 60.2%; /* Red - kept */
-    --destructive-foreground: 0 0% 100%; /* White - kept */
+    --destructive: 0 84.2% 60.2%; /* Red - Kept */
+    --destructive-foreground: 0 0% 100%; /* White - Kept */
 
-    --border: 0 0% 88%; /* Light Gray Border */
-    --input: 0 0% 96%; /* Light Gray Input Background */
-    --ring: 130 35% 40%; /* Primary Green for ring */
+    --border: 0 0% 88%; /* Light Gray Border - Kept */
+    --input: 0 0% 96%; /* Light Gray Input Background - Kept */
+    --ring: 0 0% 30%; /* Darker Gray for ring */
 
-    --radius: 0.5rem;
+    --radius: 0.5rem; /* Kept */
   }
 
   .dark {
-    /* Dark mode colors remain unchanged for now, focusing on light mode theme */
     --background: 260 10% 15%; 
     --foreground: 35 70% 95%; 
 
@@ -47,21 +46,21 @@
     --popover: 260 10% 20%;
     --popover-foreground: 35 70% 95%;
 
-    --primary: 130 40% 60%; /* A slightly brighter green for dark mode */
-    --primary-foreground: 130 10% 10%;
+    --primary: 0 0% 85%; /* Light Gray (was green) */
+    --primary-foreground: 0 0% 10%; /* Dark Gray/Black (was green-ish) */
 
-    --secondary: 120 15% 25%; /* Darker, muted green */
-    --secondary-foreground: 35 70% 95%;
+    --secondary: 120 15% 25%; /* Darker, muted green - Kept for now */
+    --secondary-foreground: 35 70% 95%; /* Kept for now */
 
     --muted: 260 10% 25%;
     --muted-foreground: 35 30% 70%;
 
-    --accent: 200 50% 65%; /* A slightly adjusted blue for dark mode */
-    --accent-foreground: 200 10% 10%;
+    --accent: 200 50% 65%; /* A slightly adjusted blue for dark mode - Kept */
+    --accent-foreground: 200 10% 10%; /* Kept */
 
     --border: 260 10% 30%;
     --input: 260 10% 22%;
-    --ring: 130 40% 55%;
+    --ring: 0 0% 70%; /* Lighter Gray ring (was green-ish) */
   }
 }
 
@@ -78,4 +77,3 @@
     @apply font-serif;
   }
 }
-
