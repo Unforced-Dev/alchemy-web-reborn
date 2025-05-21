@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,11 +60,6 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				// Custom colors for Chloe Good Coaching
-        'brand-gold': 'hsl(var(--brand-gold))', // new
-        'brand-gold-foreground': 'hsl(var(--brand-gold-foreground))', // new
-        'brand-peach': 'hsl(var(--brand-peach))', // existing, maps to background
-        // Removed: 'brand-purple', 'brand-purple-foreground', 'brand-green'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

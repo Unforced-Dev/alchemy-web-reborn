@@ -1,48 +1,44 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: 35 70% 97%; /* Light Warm Peach: #FEF9F2 */
-    --foreground: 25 20% 25%; /* Dark Warm Brown: #4D433B */
+    --background: 208 100% 97%; /* AliceBlue: #F0F8FF */
+    --foreground: 210 25% 25%; /* Darker Blue-Grey: #303D4F */
 
     --card: 0 0% 100%; /* White */
-    --card-foreground: 25 20% 25%; /* Dark Warm Brown */
+    --card-foreground: 210 25% 25%; /* Darker Blue-Grey */
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 25 20% 25%; /* Dark Warm Brown */
+    --popover: 0 0% 100%; /* White */
+    --popover-foreground: 210 25% 25%; /* Darker Blue-Grey */
 
-    --primary: 40 90% 65%; /* Rich Gold: #F5CB63 */
-    --primary-foreground: 25 50% 15%; /* Dark Brown on Gold: #3B2512 */
+    --primary: 197 70% 55%; /* Sky Blue: #4DC2F1 */
+    --primary-foreground: 210 60% 98%; /* Almost White on Primary: #F7FAFD */
 
-    --secondary: 35 50% 88%; /* Warm Beige/Light Tan: #F2E8D9 */
-    --secondary-foreground: 25 30% 30%; /* Darker Warm Brown on Beige: #5C5047 */
+    --secondary: 205 65% 88%; /* Soft Baby Blue: #D1E5F4 */
+    --secondary-foreground: 210 30% 30%; /* Darker Blue on Secondary: #3B4A59 */
 
-    --muted: 35 30% 92%; /* Lighter Warm Beige: #F7F2EC */
-    --muted-foreground: 25 15% 55%; /* Warmer Mid-Brown/Grey: #9C938C */
+    --muted: 208 70% 94%; /* Very Light Blue: #E6F0F9 */
+    --muted-foreground: 210 20% 50%; /* Mid Blue-Grey: #707C8C */
 
-    --accent: 45 100% 75%; /* Bright Lighter Gold: #FFF2A1 */
-    --accent-foreground: 25 50% 15%; /* Dark Brown on Gold */
+    --accent: 188 80% 50%; /* Bright Aqua/Cyan: #29D6D6 */
+    --accent-foreground: 190 100% 10%; /* Very Dark Cyan: #003333 */
 
     --destructive: 0 84.2% 60.2%; /* Red - kept */
     --destructive-foreground: 0 0% 100%; /* White - kept */
 
-    --border: 35 30% 80%; /* Slightly darker warm light grey for borders: #E6DCCC */
-    --input: 35 30% 94%; /* Lighter warm grey for input backgrounds: #F9F5F0 */
-    --ring: 40 90% 60%; /* Ring color based on primary (slightly darker gold): #F2BF4D */
+    --border: 205 40% 80%; /* Light Blue-Grey Border: #B8CAD6 */
+    --input: 208 100% 98%; /* Almost white with a hint of blue for input backgrounds: #F5FAFF */
+    --ring: 197 70% 50%; /* Ring color based on primary (slightly darker/more saturated sky blue): #3AAEDF */
 
     --radius: 0.5rem;
 
-    /* Custom brand colors for easier access if needed */
-    --brand-gold: hsl(var(--primary));
-    --brand-gold-foreground: hsl(var(--primary-foreground));
-    --brand-peach: hsl(var(--background)); /* This is the background color */
+    /* Custom brand colors removed as they were theme-specific (gold/peach) */
   }
 
   .dark {
-    /* Dark mode colors remain unchanged for now, focusing on light mode gold theme */
+    /* Dark mode colors remain unchanged for now, focusing on light mode blue theme */
     --background: 260 10% 15%; 
     --foreground: 35 70% 95%; 
 
@@ -52,7 +48,7 @@
     --popover: 260 10% 20%;
     --popover-foreground: 35 70% 95%;
 
-    --primary: 250 80% 70%; /* Original purple, will differ from light mode gold */
+    --primary: 250 80% 70%; /* Original purple, will differ from light mode blue */
     --primary-foreground: 260 10% 10%;
 
     --secondary: 100 40% 30%; /* Original dark green */
