@@ -1,4 +1,3 @@
-
 import React from 'react';
 import SectionWrapper from '@/components/SectionWrapper';
 import CallToActionButton from '@/components/CallToActionButton';
@@ -22,8 +21,8 @@ const AboutPage: React.FC = () => {
           <CardContent className="space-y-6 text-lg text-muted-foreground leading-relaxed">
             <div className="md:flex md:space-x-8 items-center">
               <img 
-                src="https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" // Placeholder nature/journey image
-                alt="Path through nature representing Chloe's journey"
+                src="/lovable-uploads/1511494a-2ee4-45ca-b9cf-0596bceadf1a.png" 
+                alt="Chloe Good with arms outstretched, exuding joy and openness"
                 className="w-full md:w-1/3 h-auto rounded-lg shadow-md mb-6 md:mb-0 object-cover"
               />
               <div className="md:w-2/3">

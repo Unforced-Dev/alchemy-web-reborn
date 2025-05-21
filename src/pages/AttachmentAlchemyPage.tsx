@@ -1,4 +1,3 @@
-
 import React from 'react';
 import SectionWrapper from '@/components/SectionWrapper';
 import CallToActionButton from '@/components/CallToActionButton';
@@ -28,8 +27,8 @@ const AttachmentAlchemyPage: React.FC = () => {
           </p>
         </div>
          <img 
-            src="https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" // Placeholder image for program
-            alt="Community in nature"
+            src="/lovable-uploads/f2df2a74-c830-48c4-98ed-231ca12cc3a2.png"
+            alt="Attachment Alchemy program banner with forest background and facilitators Chloe and Spencer"
             className="w-full max-w-4xl mx-auto h-auto rounded-lg shadow-xl mb-12 object-cover"
         />
       </SectionWrapper>
@@ -111,7 +110,7 @@ const AttachmentAlchemyPage: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           <Card className="text-center">
             <CardHeader>
-              <img src="https://images.unsplash.com/photo-1500673922987-e212871fec22?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Chloe Good" className="w-32 h-32 rounded-full mx-auto mb-4 object-cover" />
+              <img src="/lovable-uploads/9d76db4c-e415-4080-9e67-67cca0b43cd5.png" alt="Chloe Good, program facilitator" className="w-32 h-32 rounded-full mx-auto mb-4 object-cover" />
               <CardTitle className="text-2xl text-primary">Chloe Good</CardTitle>
             </CardHeader>
             <CardContent className="text-muted-foreground">
@@ -120,7 +119,7 @@ const AttachmentAlchemyPage: React.FC = () => {
           </Card>
           <Card className="text-center">
             <CardHeader>
-               <img src="https://images.unsplash.com/photo-1615729947596-a598e5de0ab3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Spencer (Facilitator)" className="w-32 h-32 rounded-full mx-auto mb-4 object-cover" />
+               <img src="https://images.unsplash.com/photo-1615729947596-a598e5de0ab3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Spencer (Partner Facilitator)" className="w-32 h-32 rounded-full mx-auto mb-4 object-cover" />
               <CardTitle className="text-2xl text-primary">Spencer (Partner Facilitator)</CardTitle>
             </CardHeader>
             <CardContent className="text-muted-foreground">

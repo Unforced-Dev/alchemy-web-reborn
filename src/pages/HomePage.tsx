@@ -1,4 +1,3 @@
-
 import React from 'react';
 import SectionWrapper from '@/components/SectionWrapper';
 import CallToActionButton from '@/components/CallToActionButton';
@@ -44,8 +43,8 @@ const HomePage: React.FC = () => {
             Hi, I'm Chloe. I've Been There.
           </h2>
           <img 
-            src="https://images.unsplash.com/photo-1500673922987-e212871fec22?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" // Placeholder image for Chloe
-            alt="Chloe Good - Authentic and Warm"
+            src="/lovable-uploads/9d76db4c-e415-4080-9e67-67cca0b43cd5.png" 
+            alt="Chloe Good, smiling warmly"
             className="w-48 h-48 rounded-full mx-auto mb-6 object-cover shadow-lg"
           />
           <p className="text-lg text-muted-foreground mb-6">
