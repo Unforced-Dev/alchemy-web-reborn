@@ -20,7 +20,24 @@ const ContactPage: React.FC = () => {
         {/* Contact Form */}
         <div className="bg-card p-8 rounded-lg shadow-xl">
           <h2 className="text-2xl font-semibold text-foreground mb-6">Send a Message</h2>
-          <form className="space-y-6">
+          {/* Netlify form integration */}
+          <form 
+            name="contact" 
+            method="POST" 
+            data-netlify="true" 
+            data-netlify-honeypot="bot-field"
+            className="space-y-6"
+            action="/contact-success" // Optional: Define a success page
+          >
+            {/* Hidden input for Netlify to identify the form */}
+            <input type="hidden" name="form-name" value="contact" />
+            {/* Honeypot field for spam prevention, should be hidden from users */}
+            <p className="hidden">
+              <label>
+                Don’t fill this out if you’re human: <input name="bot-field" />
+              </label>
+            </p>
+
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-muted-foreground mb-1">Full Name</label>
               <Input type="text" id="name" name="name" placeholder="Your Name" required className="bg-input" />
@@ -40,7 +57,6 @@ const ContactPage: React.FC = () => {
             <Button type="submit" size="lg" className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
               Send Message
             </Button>
-            <p className="text-xs text-muted-foreground text-center">Note: Form submission is currently a placeholder.</p>
           </form>
         </div>
 
