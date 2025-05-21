@@ -1,3 +1,4 @@
+
 import React from 'react';
 import SectionWrapper from '@/components/SectionWrapper';
 import CallToActionButton from '@/components/CallToActionButton';
@@ -21,9 +22,9 @@ const AboutPage: React.FC = () => {
           <CardContent className="space-y-6 text-lg text-muted-foreground leading-relaxed">
             <div className="md:flex md:space-x-8 items-center">
               <img 
-                src="/lovable-uploads/1511494a-2ee4-45ca-b9cf-0596bceadf1a.png" 
-                alt="Chloe Good with arms outstretched, exuding joy and openness"
-                className="w-full md:w-1/3 h-auto rounded-lg shadow-md mb-6 md:mb-0 object-cover"
+                src="/lovable-uploads/9d76db4c-e415-4080-9e67-67cca0b43cd5.png" 
+                alt="Chloe Good, smiling warmly"
+                className="w-full md:w-1/3 h-auto rounded-lg shadow-md mb-6 md:mb-0 object-cover aspect-[3/4]"
               />
               <div className="md:w-2/3">
                 <p>
@@ -44,18 +45,27 @@ const AboutPage: React.FC = () => {
           <CardHeader>
             <CardTitle className="text-3xl text-center">My Philosophy & Approach</CardTitle>
           </CardHeader>
-          <CardContent className="space-y-4 text-lg text-muted-foreground leading-relaxed">
-            <p>My work is rooted in the belief that everyone has an innate capacity for healing and wholeness. I focus on:</p>
-            <ul className="list-disc list-inside space-y-2 pl-4">
-              <li><strong>Safety First:</strong> Creating a profoundly safe space is paramount for healing to occur.</li>
-              <li><strong>Embodiment:</strong> True change happens when we connect with the wisdom of our bodies, not just our minds.</li>
-              <li><strong>Secure Attachment:</strong> Helping you develop the felt sense of secure attachment within yourself and in your relationships.</li>
-              <li><strong>Aliveness:</strong> Guiding you to reclaim your vitality, joy, and full expression of self.</li>
-              <li><strong>Community:</strong> Recognizing the healing power of genuine, supportive connection.</li>
-              <li><strong>Anti-Pathologizing Stance:</strong> Moving away from labels and focusing on your inherent strengths and resources.</li>
-              <li><strong>Somatic Experience:</strong> Prioritizing felt experience and nervous system regulation over intellectual understanding alone.</li>
-            </ul>
-            <p className="mt-4">
+          <CardContent className="text-lg text-muted-foreground leading-relaxed">
+            <div className="md:flex md:space-x-8 items-start">
+              <div className="md:w-2/3 mb-6 md:mb-0">
+                <p className="mb-4">My work is rooted in the belief that everyone has an innate capacity for healing and wholeness. I focus on:</p>
+                <ul className="list-disc list-inside space-y-2 pl-4">
+                  <li><strong>Safety First:</strong> Creating a profoundly safe space is paramount for healing to occur.</li>
+                  <li><strong>Embodiment:</strong> True change happens when we connect with the wisdom of our bodies, not just our minds.</li>
+                  <li><strong>Secure Attachment:</strong> Helping you develop the felt sense of secure attachment within yourself and in your relationships.</li>
+                  <li><strong>Aliveness:</strong> Guiding you to reclaim your vitality, joy, and full expression of self.</li>
+                  <li><strong>Community:</strong> Recognizing the healing power of genuine, supportive connection.</li>
+                  <li><strong>Anti-Pathologizing Stance:</strong> Moving away from labels and focusing on your inherent strengths and resources.</li>
+                  <li><strong>Somatic Experience:</strong> Prioritizing felt experience and nervous system regulation over intellectual understanding alone.</li>
+                </ul>
+              </div>
+              <img 
+                src="/lovable-uploads/1511494a-2ee4-45ca-b9cf-0596bceadf1a.png" 
+                alt="Chloe Good with arms outstretched, exuding joy and openness, embodying aliveness"
+                className="w-full md:w-1/3 h-auto rounded-lg shadow-md object-cover"
+              />
+            </div>
+            <p className="mt-6"> {/* Increased margin-top for spacing */}
               I believe in "getting into the source code," working at the level of the nervous system to create lasting shifts. It's about helping you feel the unfelt, nurture your inner "wise parent," and ultimately, to "live alive and full embodied."
             </p>
           </CardContent>

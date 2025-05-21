@@ -34,22 +34,30 @@ const AttachmentAlchemyPage: React.FC = () => {
       </SectionWrapper>
 
       <SectionWrapper>
-        <Card className="mb-12 shadow-lg">
-          <CardHeader>
-            <CardTitle className="text-3xl text-center">Is This You?</CardTitle>
-          </CardHeader>
-          <CardContent className="text-lg text-muted-foreground">
-            <ul className="list-disc list-inside space-y-2 columns-1 md:columns-2">
-              <li>Feeling unsafe in your body or relationships?</li>
-              <li>Longing for nourishment and genuine connection (with self and others)?</li>
-              <li>Struggling to navigate life's challenges with resilience?</li>
-              <li>Yearning to live an "alive and full embodied" life?</li>
-              <li>Seeking a "securely attached embodied community"?</li>
-              <li>Wanting people who see your "goodness and your greatness"?</li>
-              <li>Tired of surface-level fixes and ready for deep transformation?</li>
-            </ul>
-          </CardContent>
-        </Card>
+        <div className="relative rounded-lg shadow-lg overflow-hidden mb-12">
+          <img
+            src="https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
+            alt="Forest path bathed in sunlight"
+            className="absolute inset-0 w-full h-full object-cover z-0"
+          />
+          <div className="absolute inset-0 bg-black/50 z-10"></div> {/* Overlay for readability */}
+          <Card className="relative z-20 bg-transparent border-none shadow-none text-card-foreground">
+            <CardHeader>
+              <CardTitle className="text-3xl text-center text-white">Is This You?</CardTitle>
+            </CardHeader>
+            <CardContent className="text-lg text-gray-200"> {/* Adjusted text color for better contrast */}
+              <ul className="list-disc list-inside space-y-2 columns-1 md:columns-2">
+                <li>Feeling unsafe in your body or relationships?</li>
+                <li>Longing for nourishment and genuine connection (with self and others)?</li>
+                <li>Struggling to navigate life's challenges with resilience?</li>
+                <li>Yearning to live an "alive and full embodied" life?</li>
+                <li>Seeking a "securely attached embodied community"?</li>
+                <li>Wanting people who see your "goodness and your greatness"?</li>
+                <li>Tired of surface-level fixes and ready for deep transformation?</li>
+              </ul>
+            </CardContent>
+          </Card>
+        </div>
       </SectionWrapper>
       
       <SectionWrapper className="bg-secondary/30 rounded-lg">
