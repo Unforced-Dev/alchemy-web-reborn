@@ -62,10 +62,10 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				// Custom colors for Chloe Good Coaching
-        'brand-purple': 'hsl(var(--brand-purple))',
-        'brand-purple-foreground': 'hsl(var(--brand-purple-foreground))',
-        'brand-green': 'hsl(var(--brand-green))',
-        'brand-peach': 'hsl(var(--brand-peach))',
+        'brand-gold': 'hsl(var(--brand-gold))', // new
+        'brand-gold-foreground': 'hsl(var(--brand-gold-foreground))', // new
+        'brand-peach': 'hsl(var(--brand-peach))', // existing, maps to background
+        // Removed: 'brand-purple', 'brand-purple-foreground', 'brand-green'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

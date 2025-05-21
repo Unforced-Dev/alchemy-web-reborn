@@ -1,4 +1,3 @@
-
 import React from 'react';
 import SectionWrapper from '@/components/SectionWrapper';
 import CallToActionButton from '@/components/CallToActionButton';
@@ -24,19 +23,19 @@ const ContactPage: React.FC = () => {
           <form className="space-y-6">
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-muted-foreground mb-1">Full Name</label>
-              <Input type="text" id="name" name="name" placeholder="Your Name" required className="bg-background" />
+              <Input type="text" id="name" name="name" placeholder="Your Name" required className="bg-input" />
             </div>
             <div>
               <label htmlFor="email" className="block text-sm font-medium text-muted-foreground mb-1">Email Address</label>
-              <Input type="email" id="email" name="email" placeholder="you@example.com" required className="bg-background" />
+              <Input type="email" id="email" name="email" placeholder="you@example.com" required className="bg-input" />
             </div>
             <div>
               <label htmlFor="subject" className="block text-sm font-medium text-muted-foreground mb-1">Subject</label>
-              <Input type="text" id="subject" name="subject" placeholder="Inquiry about..." required className="bg-background" />
+              <Input type="text" id="subject" name="subject" placeholder="Inquiry about..." required className="bg-input" />
             </div>
             <div>
               <label htmlFor="message" className="block text-sm font-medium text-muted-foreground mb-1">Message</label>
-              <Textarea id="message" name="message" rows={5} placeholder="Your message here..." required className="bg-background" />
+              <Textarea id="message" name="message" rows={5} placeholder="Your message here..." required className="bg-input" />
             </div>
             <Button type="submit" size="lg" className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
               Send Message
@@ -59,7 +58,8 @@ const ContactPage: React.FC = () => {
                   </a>
                 </div>
               </div>
-              {/* Optional Phone
+              {/* Optional Phone */}
+              {/*
               <div className="flex items-center space-x-3">
                 <Phone className="h-6 w-6 text-primary" />
                 <div>
@@ -79,8 +79,6 @@ const ContactPage: React.FC = () => {
             </p>
             <CallToActionButton 
               href="https://calendly.com/chloe-good-example/discovery-call" // Replace with Chloe's actual Acuity/Calendly link
-              target="_blank"
-              rel="noopener noreferrer"
               className="bg-primary hover:bg-primary/90 text-primary-foreground"
             >
               Schedule Your Call

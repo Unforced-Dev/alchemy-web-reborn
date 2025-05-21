@@ -1,127 +1,100 @@
-
 import React from 'react';
 import SectionWrapper from '@/components/SectionWrapper';
 import CallToActionButton from '@/components/CallToActionButton';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import { User, Heart, Sun } from 'lucide-react';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const CoachingPage: React.FC = () => {
   return (
     <>
-      <SectionWrapper className="bg-gradient-to-br from-secondary/20 via-background to-primary/5">
+      <SectionWrapper className="bg-gradient-to-br from-primary/10 via-background to-secondary/10">
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">Personalized Somatic Coaching</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">Somatic Coaching & Guidance</h1>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
-            Deep, individualized somatic healing to rewire your nervous system, "get into the source code," and transform your life from the inside out.
+            Deep, personalized somatic healing to help you rewire your nervous system, feel safe in your body, and transform your life from the inside out.
           </p>
         </div>
       </SectionWrapper>
 
       <SectionWrapper>
-        <div className="text-center max-w-3xl mx-auto mb-12">
-          <h2 className="text-3xl md:text-4xl font-semibold mb-4 text-foreground">What to Expect in 1-on-1 Work</h2>
-          <p className="text-lg text-muted-foreground">
-            My 1-on-1 somatic coaching is for those ready to dive deep. We work directly with your nervous system and embodied experience to:
-          </p>
-          <ul className="list-disc list-inside text-left mt-4 space-y-2 text-muted-foreground mx-auto max-w-xl">
-            <li>Access and process unfelt emotions in a safe, held space.</li>
-            <li>Reprogram limiting beliefs and patterns stored in your "mainframe."</li>
-            <li>Cultivate a profound sense of safety and trust within your body.</li>
-            <li>Develop your "inner wise parent" to navigate life with greater compassion and clarity.</li>
-            <li>Experience significant shifts, often within 3 months, though many clients continue longer-term for ongoing support and guidance as a "life advisor."</li>
-          </ul>
+        <div className="max-w-3xl mx-auto text-lg text-muted-foreground space-y-6 text-center">
+            <p className="text-2xl font-semibold text-foreground">"My work is about getting into the source code, the mainframe of your psychology and nervous system."</p>
+            <p>
+              Traditional talk therapy often scratches the surface. Somatic coaching, as I practice it, delves deeper. We work with the body's wisdom to access and heal the root causes of distress, attachment wounds, and trauma. It's about feeling the unfelt, nurturing your inner "wise parent," and cultivating a profound sense of safety and aliveness within.
+            </p>
+            <p>
+              Clients typically experience significant shifts within the first 3 months, though many choose to continue this transformative work longer-term, viewing me as a trusted life advisor.
+            </p>
         </div>
       </SectionWrapper>
 
-      <SectionWrapper className="bg-muted/30 rounded-lg">
+      <SectionWrapper className="bg-secondary/30 rounded-lg">
         <h2 className="text-3xl md:text-4xl font-semibold text-center mb-10 text-foreground">My 1-on-1 Offerings</h2>
-        <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-8">
-          <Card className="shadow-lg h-full flex flex-col">
-            <CardHeader className="text-center">
-              <Heart className="h-12 w-12 text-primary mx-auto mb-2" />
-              <CardTitle className="text-2xl text-primary">Somatic Attachment Repair Coaching</CardTitle>
-              <CardDescription>Ongoing Transformative Support</CardDescription>
+        <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <Card className="h-full">
+            <CardHeader>
+              <CardTitle className="text-2xl text-primary">Ongoing Somatic Attachment Repair Coaching</CardTitle>
             </CardHeader>
-            <CardContent className="text-muted-foreground flex-grow">
-              <p className="mb-4">
-                This is an ongoing journey of deep healing and integration. We typically meet weekly or 3 times a month initially, gradually tapering as you embody new ways of being.
+            <CardContent className="text-muted-foreground space-y-3">
+              <p>This is my core 1-on-1 offering. We meet regularly (weekly or 3x/month initially, tapering as you integrate) to:
               </p>
-              <h4 className="font-semibold text-foreground mb-2">Process & Benefits:</h4>
-              <ul className="list-disc list-inside space-y-1">
-                <li>Gentle yet profound exploration of attachment patterns.</li>
-                <li>Nervous system regulation and co-regulation.</li>
-                <li>Healing developmental trauma at its root.</li>
-                <li>Building capacity for secure attachment in all relationships.</li>
-                <li>Reclaiming your authentic self and inherent worth.</li>
+              <ul className="list-disc list-inside space-y-1 pl-4">
+                <li>Gently process and release stored trauma and emotional blockages.</li>
+                <li>Develop skills for nervous system regulation and resilience.</li>
+                <li>Rewire attachment patterns towards security and connection.</li>
+                <li>Cultivate self-compassion and a strong inner "wise parent."</li>
+                <li>Integrate somatic awareness into your daily life.</li>
               </ul>
+              <p>This journey is tailored to your unique needs and pace, creating a safe container for profound healing and growth.</p>
             </CardContent>
-            <div className="p-6 pt-0 text-center">
-               <CallToActionButton href="#contact-cta" className="w-full md:w-auto">
-                Book a Discovery Call
-              </CallToActionButton>
-            </div>
           </Card>
-
-          <Card className="shadow-lg h-full flex flex-col">
-            <CardHeader className="text-center">
-              <Sun className="h-12 w-12 text-primary mx-auto mb-2" />
+          <Card className="h-full">
+            <CardHeader>
               <CardTitle className="text-2xl text-primary">Day-Longs in Nature</CardTitle>
-              <CardDescription>Immersive Healing Experiences</CardDescription>
             </CardHeader>
-            <CardContent className="text-muted-foreground flex-grow">
-              <p className="mb-4">
-                For a concentrated dose of healing and connection, I offer day-long immersive experiences in nature. These are powerful opportunities to deepen your somatic awareness and relationship with the natural world.
+            <CardContent className="text-muted-foreground space-y-3">
+              <p>For a more immersive experience, I offer personalized day-long intensives set in the healing embrace of nature.</p>
+              <p>These extended sessions allow for:
               </p>
-              <h4 className="font-semibold text-foreground mb-2">What it Entails:</h4>
-              <ul className="list-disc list-inside space-y-1">
-                <li>Guided somatic practices in a natural setting.</li>
-                <li>Deepening your connection to the earth as a resource.</li>
-                <li>Space for reflection, integration, and profound insight.</li>
-                <li>Personalized attention and support throughout the day.</li>
-                <li>(Chloe is currently leaning against listing medicine journeys publicly. If this changes, relevant information would be discussed privately.)</li>
+              <ul className="list-disc list-inside space-y-1 pl-4">
+                <li>Deeper dives into specific themes or challenges.</li>
+                <li>Extended somatic practices and nature-based therapies.</li>
+                <li>Profound connection with the natural world as a co-regulator.</li>
+                <li>Dedicated time for integration and reflection.</li>
               </ul>
+              <p>Day-longs are powerful catalysts for breakthroughs and deep resourcing. (Details and availability discussed during a discovery call).</p>
             </CardContent>
-             <div className="p-6 pt-0 text-center">
-               <CallToActionButton href="#contact-cta" className="w-full md:w-auto">
-                Inquire About Day-Longs
-              </CallToActionButton>
-            </div>
           </Card>
         </div>
+         <p className="text-center text-muted-foreground mt-8 text-sm">
+            Chloe is currently not offering medicine journeys as part of her listed services.
+          </p>
       </SectionWrapper>
 
-      {/* Testimonials Section - Placeholder */}
       <SectionWrapper>
-        <h2 className="text-3xl md:text-4xl font-semibold text-center mb-10 text-foreground">Words from Clients</h2>
-        <div className="max-w-3xl mx-auto space-y-6">
-          {/* Example Testimonial Card */}
-          <Card className="bg-card shadow">
-            <CardContent className="pt-6">
-              <p className="text-lg text-muted-foreground italic mb-4">"Working with Chloe has been life-changing. I finally feel safe in my own skin and my relationships have transformed."</p>
-              <p className="text-right font-semibold text-primary">- Client Name</p>
+        <Card className="max-w-2xl mx-auto text-center shadow-lg">
+            <CardHeader>
+                <CardTitle className="text-3xl text-primary">What to Expect in a Session</CardTitle>
+            </CardHeader>
+            <CardContent className="text-muted-foreground space-y-3">
+                <p>Our sessions are a collaborative exploration. We start by checking in with your present experience – sensations, emotions, thoughts. </p>
+                <p>Guided by your nervous system's cues, we may incorporate gentle movement, breathwork, focused awareness, or therapeutic dialogue to help you connect with and process what arises in a safe and supported way. </p>
+                <p>The emphasis is always on your felt sense and building resources for self-regulation and inner safety. There's no pressure, only curiosity and compassion.</p>
             </CardContent>
-          </Card>
-          <p className="text-lg text-muted-foreground text-center">More testimonials specific to 1-on-1 work will be added here.</p>
-        </div>
+        </Card>
       </SectionWrapper>
 
       <SectionWrapper className="bg-primary/10 rounded-lg">
-        <div id="contact-cta" className="text-center max-w-2xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-semibold mb-6 text-foreground">
-            Ready for Deep, Personalized Healing?
-          </h2>
+        <div className="text-center max-w-2xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-semibold mb-4 text-foreground">Ready to Explore 1-on-1 Work?</h2>
           <p className="text-lg text-muted-foreground mb-8">
-            If you're feeling called to this profound 1-on-1 work, I invite you to book a free Discovery Call. Let's explore how somatic coaching can support your unique journey to wholeness.
+            If you're feeling called to this deep, personalized work, I invite you to schedule a complimentary discovery call. We'll discuss your aspirations, answer your questions, and explore if we're a good fit to embark on this journey together.
           </p>
-          <CallToActionButton 
-            href="https://calendly.com/chloe-good-example/discovery-call" // Replace with Chloe's actual Acuity/Calendly link
-            target="_blank"
-            rel="noopener noreferrer"
+          <CallToActionButton
+            href="https://calendly.com/chloe-good-example/discovery-call" // Replace
             className="bg-primary hover:bg-primary/90 text-primary-foreground"
           >
-            Book Your Free Discovery Call
+            Schedule Your Free Discovery Call
           </CallToActionButton>
-          <p className="mt-4 text-sm text-muted-foreground">(This will link to Chloe's Acuity Scheduling)</p>
         </div>
       </SectionWrapper>
     </>
